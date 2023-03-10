@@ -1,0 +1,26 @@
+name: stack_overflow_users
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  dio: 5.0.1 # Pinned dependency because this is not by Google
+  flutter:
+    sdk: flutter
+  collection: ^1.17.0
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.3
+  provider: ^6.0.5
+  shared_preferences: ^2.0.18
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: false
